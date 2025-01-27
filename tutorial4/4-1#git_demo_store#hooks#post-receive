@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Simple post-receive hook demo
+WORK_TREE="~/e-ai_tutorials/tutorial4/git_demo_work"
+GIT_DIR="$(pwd)"  # Automatically set to the path of the bare repository
+
+echo "Post-receive hook triggered. Updating work tree..."
+git --work-tree="$WORK_TREE" --git-dir="$GIT_DIR" checkout -f
+echo "Work tree updated successfully."
+
+
