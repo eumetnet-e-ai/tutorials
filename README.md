@@ -26,14 +26,12 @@ Collecting targeted tutorials for helping our scientists to learn about AI techn
 - 4.2 MLOps in relation to traditional Weather forecasting
 - 4.3 Road to MLOps
 
-## Tutorial E-AI Basics 5: MLflow - an open-source platform for managing the machine learning lifecycle
-(in preparation)
+## [Tutorial E-AI Basics 5: MLflow - an open-source platform for managing the machine learning lifecycle](tutorial5/)
 - 5.1 Overview - User perspective
 - 5.2 Logging to MLflow as a ML software developer
 - 5.3 Running MLflow server as a user and as a service
 
-## Tutorial E-AI Basics 6: CI/CD - Continuous Integration and Continuous Deployment of ML codes
-(in preparation)
+## [Tutorial E-AI Basics 6: CI/CD - Continuous Integration and Continuous Deployment of ML codes](tutorial6/)
 - 6.1 Overview – What can CI/CD do for you?
 - 6.2 Basic tests with Pytest
 - 6.3 Setting up a runner

@@ -1,0 +1,12 @@
+# content of .gitlab_ci.yml
+
+stages:
+  - test
+
+pytest:
+  stage: test
+  image: python:3.10
+  script:
+    - pip install pytest
+    - pytest
+
